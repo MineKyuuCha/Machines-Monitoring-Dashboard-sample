@@ -1,6 +1,4 @@
-from pathlib import Path
 
-app_code = r'''
 import streamlit as st
 from datetime import datetime, timedelta
 import random
@@ -964,3 +962,8 @@ st.markdown(
 # ------------------------------------------------------------
 # FOOTER
 # ------------------------------------------------------------
+
+st.markdown(
+    '<div class="footer">Welding Machine Monitoring System © 2026</div>',
+    unsafe_allow_html=True,
+)
